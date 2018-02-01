@@ -1,0 +1,10 @@
+body {
+  background-color: #FFB7DD;
+}
+p {
+  color: #000000;
+  text-align: left;
+  font-size: 1.35em;
+  font-weight: bold;
+  max-width: 900px;
+}
