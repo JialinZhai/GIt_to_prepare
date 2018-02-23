@@ -1,8 +1,10 @@
 body {
   background-color: #FFB7DD;
+  margin: 50px 50px 50px 50px;
 }
 p {
   color: #000000;
+
   text-align: center;
   font-size: 1.20em;
   font-weight: normal;
