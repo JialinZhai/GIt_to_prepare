@@ -87,7 +87,7 @@ function draw() {
     line (leftX, 100 + 80 * i, rightX, 100 + 80 * i);
   }
 
-
+  drawButtons();
   fill(102, 102, 255);
   rect (360, 570, 10, 10);
   fill(128, 170, 255);
@@ -181,7 +181,7 @@ function draw() {
     rect(leftX + 350, startingY3, 150, map(number3[i], 0, 1, 0, 400));
     startingY3 = startingY3 + map(number3[i], 0, 1, 0, 400);
   }
-
+}
 
   function mousePressed(){
     if (mouseX > 320 && mouseX < 426 && mouseY > 50 && mouseY < 100) {
@@ -198,7 +198,7 @@ function draw() {
       print('hello....3');
       selectedButton = 2;
       redraw();
-
+    }
     else if (mouseX > 360 && mouseX < 550 && mouseY > 560 && mouseY < 575) {
       print('hello....4');
       selectedButton = 3;
