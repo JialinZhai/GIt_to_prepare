@@ -77,7 +77,10 @@ function drawButtons(){
     text("17.29%", 560, 600 - 192.36 - 26.36 - 50.2 - 61.92 - 69.16/2);
     text("32.31%", 760, 600 - 123.48 - 27.64 - 11.6 - 108.4 - 129.24/2);
     }
+  else {
+    text();
   }
+}
 
 function draw() {
   for (var i = 0; i < percentage.length; i++) {
@@ -187,41 +190,41 @@ function draw() {
     if (mouseX > 320 && mouseX < 426 && mouseY > 50 && mouseY < 100) {
       print('hello....1');
       selectedButton = 0;
-      redraw();
+      redrawButtons();
       }
     else if (mouseX > 440 && mouseX < 660 && mouseY > 50 && mouseY < 100) {
       print('hello....2');
       selectedButton = 1;
-      redraw();
+      redrawButtons();
       }
     else if (mouseX > 670 && mouseX < 820 && mouseY > 50 && mouseY < 100) {
       print('hello....3');
       selectedButton = 2;
-      redraw();
+      redrawButtons();
     }
     else if (mouseX > 360 && mouseX < 550 && mouseY > 560 && mouseY < 575) {
       print('hello....4');
       selectedButton = 3;
-      redraw();
+      redrawButtons();
     }
     else if (mouseX > 560 && mouseX < 800 && mouseY > 560 && mouseY < 575) {
       print('hello....5');
       selectedButton = 4;
-      redraw();
+      redrawButtons();
     }
     else if (mouseX > 360 && mouseX < 550 && mouseY > 590 && mouseY < 605) {
       print('hello....6');
       selectedButton = 5;
-      redraw();
+      redrawButtons();
     }
     else if (mouseX > 560 && mouseX < 800 && mouseY > 590 && mouseY < 605) {
       print('hello....7');
       selectedButton = 6;
-      redraw();
+      redrawButtons();
     }
     else if (mouseX > 360 && mouseX < 550 && mouseY > 610 && mouseY < 625) {
       print('hello....8');
       selectedButton = 7;
-      redraw();
+      redrawButtons();
     }
 }
