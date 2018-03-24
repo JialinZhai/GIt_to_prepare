@@ -11,7 +11,7 @@ p {
 }
 p1 {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-size: 1.20em;
   font-weight: normal;
   font-style: normal;
@@ -36,9 +36,9 @@ h2 {
 h3 {
   color: #000000;
   text-align: left;
-  font-size: 1.30em;
+  font-size: 1.20em;
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
   max-width: 1000px;
 }
 h4 {
