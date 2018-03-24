@@ -4,16 +4,23 @@ body {
 }
 p {
   color: #000000;
-
   text-align: center;
   font-size: 1.20em;
   font-weight: normal;
   font-style: italic;
 }
+p1 {
+  color: #000000;
+  text-align: left;
+  font-size: 1.20em;
+  font-weight: normal;
+  font-style: normal;
+}
+
 a {
   color: #000000;
   text-align: left;
-  font-size: 1.3em;
+  font-size: 1.30em;
   font-weight: bold;
   font-style: italic;
   max-width: 900px;
@@ -23,6 +30,15 @@ h2 {
   text-align: left;
   font-size: 1.30em;
   font-weight: bold;
+  max-width: 1000px;
+}
+
+h3 {
+  color: #000000;
+  text-align: left;
+  font-size: 1.30em;
+  font-weight: bold;
+  font-style: italic;
   max-width: 1000px;
 }
 .world{
@@ -56,3 +72,19 @@ h2 {
   opacity: 0.75
 }
 .group1{position: relative;}
+
+.world2{
+  color: #FFB7DD;
+  text-align: center;
+  font-size: 2.00em;
+  font-weight: bold;
+  max-width: 600px;
+  position: absolute;
+  top:95%;
+  left:27%;
+  right:8%;
+  z-index: 10;
+  background:#191970;
+  opacity: 0.65
+}
+.group2{position: relative;}
