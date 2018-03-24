@@ -43,11 +43,12 @@ h3 {
 }
 h4 {
   color: #000000;
-  text-align:center;
-  font-size: 1.70em;
+  text-align:left;
+  font-size: 1.60em;
   font-weight: normal;
   max-width: 600px;
 }
+
 .world{
   color: #FFB7DD;
   text-align: center;
