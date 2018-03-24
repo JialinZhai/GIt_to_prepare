@@ -11,7 +11,7 @@ p {
 }
 p1 {
   color: #000000;
-  text-align: center;
+  text-align: left;
   font-size: 1.20em;
   font-weight: normal;
   font-style: normal;
@@ -20,10 +20,9 @@ p1 {
 a {
   color: #000000;
   text-align: left;
-  font-size: 1.30em;
-  font-weight: bold;
-  font-style: italic;
-  max-width: 900px;
+  font-size: 1.0em;
+  font-weight: normal;
+  font-style: normal;
 }
 h2 {
   color: #000000;
